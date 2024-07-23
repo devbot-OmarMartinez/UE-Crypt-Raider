@@ -1171,3 +1171,21 @@ Minimum required: 527.27
 [2024.07.23-21.30.39:329][589]LogEditorActor: Deleted Actor: BasePawn
 [2024.07.23-21.30.39:400][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
 [2024.07.23-21.30.39:401][589]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2024.07.23-21.31.36:931][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.07.23-21.31.36:941][774]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.006059 seconds
+[2024.07.23-21.31.36:961][774]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto1
+[2024.07.23-21.31.36:961][774]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto19873D2FE468C8B73FA8F698E183594B4.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2024.07.23-21.31.36:963][774]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap is in the /Temp path, will not scan.
+[2024.07.23-21.31.36:963][774]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto1 is in the /Temp path, will not scan.
+[2024.07.23-21.31.36:963][774]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto1 is in the /Temp path, will not scan.
+[2024.07.23-21.31.36:963][774]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.035
+[2024.07.23-21.31.36:963][774]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2024.07.23-21.38.04:708][940]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.07.23-21.38.08:718][973]LogLiveCoding: Display:    Creating library C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.lib and object C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_1.exp
+[2024.07.23-21.38.09:114][974]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.23-21.38.09:114][974]LogClass: UClass BasePawn Reload.
+[2024.07.23-21.38.09:114][974]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.23-21.38.09:119][974]Re-instancing BasePawn after reload.
+[2024.07.23-21.38.09:167][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.07.23-21.38.09:373][975]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.07.23-21.38.09:373][975]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
