@@ -1133,3 +1133,42 @@ Minimum required: 527.27
 [2024.07.23-20.29.28:335][693]LogAutomationController: Ignoring very large delta of 5.43 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2024.07.23-20.30.22:445][442]LogAutomationController: Ignoring very large delta of 5.28 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2024.07.23-20.31.01:748][580]LogDerivedDataCache: C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:41.307 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 21433 files in 23376 folders with total size 1652 MiB.
+[2024.07.23-20.35.02:707][355]LogViewport: Scene viewport resized to 1601x459, mode Windowed.
+[2024.07.23-20.35.32:829][444]LogSlate: Took 0.000810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.07.23-20.35.45:516][580]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave Explode_Audio...
+[2024.07.23-20.35.45:521][580]LogAudio: Display: Chunk sizes for SoundWave /Game/Assets/Audio/Explode_Audio.Explode_Audio: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.23-20.35.47:420][607]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave Thud_Audio...
+[2024.07.23-20.35.47:424][607]LogAudio: Display: Chunk sizes for SoundWave /Game/Assets/Audio/Thud_Audio.Thud_Audio: Chunk0=28 bytes, Chunk1-N=256k
+[2024.07.23-20.35.47:430][607]LogDerivedDataCache: C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Move collision when writing file C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacySTREAMEDAUDIO/b3/a9/484f4baec6a082a79c8624a89e29583c655e.udd from 'Unknown Audio'.
+[2024.07.23-20.36.05:356][823]LogSlate: Took 0.001172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.23-20.39.58:889][307]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.07.23-20.39.58:889][307]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.07.23-20.40.05:327][376]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2024.07.23-20.40.05:648][376]Using bundled DotNet SDK version: 6.0.302
+[2024.07.23-20.40.05:749][376]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2024.07.23-20.40.06:456][376]Log file: C:\Users\fidel.martinez.CGBOTMX\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.07.23-20.40.09:079][376]
+[2024.07.23-20.40.09:079][376]Generating VisualStudio2022 project files:
+[2024.07.23-20.40.09:079][376]Discovering modules, targets and source code for project...
+[2024.07.23-20.40.15:330][376]Binding IntelliSense data...
+[2024.07.23-20.40.56:953][376]Binding IntelliSense data... 75%
+[2024.07.23-20.40.56:954][376]Binding IntelliSense data... 100%
+[2024.07.23-20.40.56:954][376]Creating common properties file...
+[2024.07.23-20.40.56:954][376]Creating common properties file... 0%
+[2024.07.23-20.40.56:954][376]Writing project files...
+[2024.07.23-20.41.00:259][376]Writing project files... 100%
+[2024.07.23-20.41.00:260][376]
+[2024.07.23-20.41.00:260][376]Generating QueryTargets data for editor...
+[2024.07.23-20.41.19:524][376]LogSlate: Window 'Message' being destroyed
+[2024.07.23-20.41.19:532][376]Message dialog closed, result: Ok, title: Message, text: Project now includes sources, please close the editor and build from your IDE.
+[2024.07.23-20.41.25:244][376]LogSlate: Window 'Message' being destroyed
+[2024.07.23-20.41.25:249][376]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'BasePawn', however you must recompile the 'ToonTanks' module before it will appear in the Content Browser.
+
+Would you like to edit the code now?
+[2024.07.23-20.41.25:662][376]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.07.23-20.41.25:766][377]LogAutomationController: Ignoring very large delta of 80.85 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.23-20.42.22:068][496]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.07.23-20.42.22:073][496]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.07.23-20.42.22:079][497]LogAutomationController: Ignoring very large delta of 16.96 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.23-20.42.22:083][497]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.07.23-20.42.49:284][498]LogAutomationController: Ignoring very large delta of 27.21 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
