@@ -1189,3 +1189,46 @@ Minimum required: 527.27
 [2024.07.23-21.38.09:167][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
 [2024.07.23-21.38.09:373][975]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
 [2024.07.23-21.38.09:373][975]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.07.23-21.39.19:713][370]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.07.23-21.39.19:725][370]LogContentBrowser: Creating deferred item: NewFolder
+[2024.07.23-21.39.19:732][371]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.07.23-21.39.26:545][447]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.07.23-21.39.26:546][447]LogContentBrowser: End creating deferred item NewFolder
+[2024.07.23-21.39.32:978][540]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.07.23-21.39.33:019][540]LogContentBrowser: Creating deferred item: NewFolder
+[2024.07.23-21.39.33:072][542]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.07.23-21.39.38:744][605]LogContentBrowser: Attempting asset rename: NewFolder -> Pawns
+[2024.07.23-21.39.38:744][605]LogContentBrowser: End creating deferred item NewFolder
+[2024.07.23-21.39.54:326][983]LogSlate: Took 0.004011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.07.23-21.40.35:882][348]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.23-21.40.35:883][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.23-21.40.35:883][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.23-21.40.36:007][348]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.07.23-21.40.37:566][348]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.07.23-21.40.37:641][348]LogViewport: Scene viewport resized to 1289x587, mode Windowed.
+[2024.07.23-21.40.44:181][466]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.07.23-21.40.44:185][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.23-21.40.44:389][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.07.23-21.40.44:408][466]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.07.23-21.40.44:409][466]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainB1C25B984C6C7FC7C77A9380D294526D.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2024.07.23-21.40.44:419][466]LogFileHelpers: All files are already saved.
+[2024.07.23-21.40.44:419][466]LogFileHelpers: Saving map 'Main' took 0.063
+[2024.07.23-21.40.44:424][466]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.23-21.40.44:424][466]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank95BB18974C09F8BD50B8C0A47EE5FAC8.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.23-21.40.44:437][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms
+[2024.07.23-21.40.44:442][466]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.23-21.40.44:442][466]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.07.23-21.40.44:442][466]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.23-21.41.05:817][793]LogAutomationController: Ignoring very large delta of 5.70 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.23-21.43.17:631][548]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2024.07.23-21.43.17:632][548]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.23-21.43.17:632][548]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.23-21.43.17:870][548]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.07.23-21.43.17:925][548]LogViewport: Scene viewport resized to 1289x587, mode Windowed.
+[2024.07.23-21.43.22:126][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.23-21.43.22:130][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.23-21.43.22:282][633]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTurret
+[2024.07.23-21.43.22:282][633]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret4E02F1EF41BEFFD052210190BD6E3E2C.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2024.07.23-21.43.22:319][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 441 ms)
+[2024.07.23-21.43.22:320][633]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2024.07.23-21.43.22:320][633]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
