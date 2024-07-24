@@ -1982,3 +1982,64 @@ Minimum required: 527.27
 [2024.07.24-20.03.41:199][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.07.24-20.03.41:225][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
 [2024.07.24-20.03.41:284][684]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.07.24-20.08.19:993][565]LogSlate: External Image Picker: DecompressImage failed
+[2024.07.24-20.15.58:840][400]LogHotReload: New module detected: UnrealEditor-ToonTanks-0033.dll
+[2024.07.24-20.16.00:175][405]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.24-20.16.00:226][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.07.24-20.16.00:364][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.07.24-20.16.00:422][405]Display: HotReload took  0.2s.
+[2024.07.24-20.16.00:422][405]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged
+[2024.07.24-20.16.05:134][443]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.24-20.16.05:142][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-20.16.05:142][443]PIE: New page: PIE session: Main (Jul 24, 2024, 9:16:05 AM)
+[2024.07.24-20.16.05:142][443]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.07.24-20.16.05:147][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004908s)
+[2024.07.24-20.16.05:147][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004942s)
+[2024.07.24-20.16.05:217][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.07.24-20.16.05:218][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-20.16.05:219][443]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.24-20.16.05:219][443]LogAIModule: Creating AISystem for world Main
+[2024.07.24-20.16.05:219][443]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2024.07.24-20.16.05:219][443]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.07.24-20.16.05:219][443]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-20.16.05:219][443]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-20.16.05:219][443]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-20.16.05:219][443]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-20.16.05:219][443]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-20.16.05:219][443]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-20.16.05:220][443]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-20.16.05:220][443]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-20.16.05:220][443]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.24-20.16.05:220][443]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.24-20.16.05:220][443]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.24-20.16.05:222][443]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.24-20.16.05:248][443]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Samsung USB C Earphones)
+[2024.07.24-20.16.05:249][443]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-20.16.05:249][443]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-20.16.05:249][443]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-20.16.05:250][443]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.07.24-20.16.05:250][443]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.07.24-20.16.05:251][443]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.07.24-20.16.05:251][443]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.07.24-20.16.05:251][443]LogInit: FAudioDevice initialized with ID 13.
+[2024.07.24-20.16.05:251][443]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main'.
+[2024.07.24-20.16.05:252][443]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.07.24-20.16.05:254][443]LogLoad: Game class is 'GameModeBase'
+[2024.07.24-20.16.05:256][443]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.07.24-14.16.05
+[2024.07.24-20.16.05:256][443]LogWorld: Bringing up level for play took: 0.001787
+[2024.07.24-20.16.05:259][443]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.07.24-20.16.05:260][443]PIE: Server logged in
+[2024.07.24-20.16.05:260][443]PIE: Play in editor total start time 0.119 seconds.
+[2024.07.24-20.16.36:505][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-20.16.36:505][955]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.07.24-20.16.36:505][955]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-20.16.36:505][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-20.16.36:522][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-20.16.36:527][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-20.16.36:538][955]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.24-20.16.36:538][955]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.07.24-20.16.36:538][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.07.24-20.16.36:540][955]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.07.24-20.16.36:546][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-20.16.36:550][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.07.24-20.16.36:583][956]LogPlayLevel: Display: Destroying online subsystem :Context_22
