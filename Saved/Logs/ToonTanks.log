@@ -1395,3 +1395,27 @@ Minimum required: 527.27
 [2024.07.24-17.48.24:306][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
 [2024.07.24-17.48.24:312][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
 [2024.07.24-17.48.24:389][553]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.07.24-17.57.05:063][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.07.24-17.57.05:088][124]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto1
+[2024.07.24-17.57.05:089][124]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto1DC40E7004D4C97C73C888C9CFC8B2A19.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2024.07.24-17.57.05:091][124]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap is in the /Temp path, will not scan.
+[2024.07.24-17.57.05:092][124]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.043
+[2024.07.24-17.57.05:092][124]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
+[2024.07.24-17.57.05:092][124]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Pawns/BP_PawnTank] ([2] browsable assets)...
+[2024.07.24-17.57.05:253][124]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank]
+[2024.07.24-17.57.05:254][124]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-17.57.05:301][124]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C]
+[2024.07.24-17.57.05:301][124]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawns/BP_PawnTank]
+[2024.07.24-17.57.05:307][124]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto1
+[2024.07.24-17.57.05:308][124]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank_Auto192185C55477E6F717B5ABEBB99FF3881.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawns/BP_PawnTank_Auto1.uasset'
+[2024.07.24-17.57.05:309][124]LogFileHelpers: Auto-saving content packages took 0.218
+[2024.07.24-18.06.21:583][794]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Digital Audio (S/PDIF) (High Definition Audio Device), InstanceID=1
+[2024.07.24-18.06.21:865][794]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21660
+[2024.07.24-18.06.22:200][795]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{47d64703-0105-4807-856d-4ba9bbca94ad}, Name=Digital Audio (S/PDIF) (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=12.78
+[2024.07.24-18.06.22:200][795]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.07.24-18.06.22:203][795]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.07.24-18.06.22:399][796]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (Samsung USB C Earphones), InstanceID=1
+[2024.07.24-18.06.22:532][796]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=21660
+[2024.07.24-18.06.22:868][797]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{204d63f3-3e79-46b4-853f-f1efe5a8ae1d}, Name=Headset Earphone (Samsung USB C Earphones)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=39.55
+[2024.07.24-18.06.22:868][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.07.24-18.06.22:869][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1

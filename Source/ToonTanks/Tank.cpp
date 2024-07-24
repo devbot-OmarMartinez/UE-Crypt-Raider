@@ -17,6 +17,13 @@ ATank::ATank()
     Camera->SetupAttachment(SpringArm);
 }
 
+void ATank::BeginPlay()
+{
+    Super::BeginPlay();
+
+    PlayerControllerRef = Cast<APlayerController>(GetController());
+}
+
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -31,6 +38,8 @@ void ATank::Move(float Value)
     // X = Value * DeltaTime * Speed
     DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
     AddActorLocalOffset(DeltaLocation, true);
+
+    GetController();
 }
 
 void ATank::Turn(float Value)
