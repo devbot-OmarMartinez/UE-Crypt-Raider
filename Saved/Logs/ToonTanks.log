@@ -1462,3 +1462,117 @@ Make sure 'BP_PawnTank_C' has been compiled for  Get VisibleAnywhereInt
 [2024.07.24-15.44.36:127][264]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
 [2024.07.24-15.44.37:308][314]BlueprintLog: New page: Compile BP_PawnTank
 [2024.07.24-15.44.37:355][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.07.24-15.48.01:622][655]LogViewport: Scene viewport resized to 420x143, mode Windowed.
+[2024.07.24-15.50.42:927][818]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.24-15.50.42:936][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.24-15.50.42:936][818]PIE: New page: PIE session: Main (Jul 24, 2024, 4:50:42 AM)
+[2024.07.24-15.50.42:977][818]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.07.24-15.50.42:977][818]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.07.24-15.50.42:977][818]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.07.24-15.50.42:982][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004469s)
+[2024.07.24-15.50.42:982][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004516s)
+[2024.07.24-15.50.43:005][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.07.24-15.50.43:009][818]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-15.50.43:009][818]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.24-15.50.43:010][818]LogAIModule: Creating AISystem for world Main
+[2024.07.24-15.50.43:010][818]LogPlayLevel: PIE: World Init took: (0.001538s)
+[2024.07.24-15.50.43:010][818]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.24-15.50.43:010][818]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.24-15.50.43:010][818]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.24-15.50.43:011][818]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.24-15.50.43:011][818]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.24-15.50.43:011][818]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.24-15.50.43:013][818]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.24-15.50.43:040][818]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (Samsung USB C Earphones)
+[2024.07.24-15.50.43:041][818]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.24-15.50.43:041][818]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.24-15.50.43:041][818]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.24-15.50.43:042][818]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.07.24-15.50.43:042][818]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.07.24-15.50.43:043][818]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.07.24-15.50.43:043][818]LogInit: FAudioDevice initialized with ID 2.
+[2024.07.24-15.50.43:043][818]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.07.24-15.50.43:043][818]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2024.07.24-15.50.43:043][818]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.07.24-15.50.43:046][818]LogLoad: Game class is 'GameModeBase'
+[2024.07.24-15.50.43:048][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.07.24-09.50.43
+[2024.07.24-15.50.43:049][818]LogWorld: Bringing up level for play took: 0.002465
+[2024.07.24-15.50.43:051][818]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.07.24-15.50.43:148][818]LogBlueprintUserMessages: [BP_PawnTank_C_1] 12
+[2024.07.24-15.50.43:148][818]LogBlueprintUserMessages: [BP_PawnTank_C_1] 100
+[2024.07.24-15.50.43:148][818]PIE: Server logged in
+[2024.07.24-15.50.43:149][818]PIE: Play in editor total start time 0.215 seconds.
+[2024.07.24-15.50.50:471][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-15.50.50:471][957]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.07.24-15.50.50:471][957]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.07.24-15.50.50:471][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-15.50.50:541][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.24-15.50.50:548][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.24-15.50.50:562][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.24-15.50.50:562][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.07.24-15.50.50:562][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.07.24-15.50.50:564][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.07.24-15.50.50:571][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.24-15.50.50:862][958]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.07.24-15.50.50:950][958]LogViewport: Scene viewport resized to 420x143, mode Windowed.
+[2024.07.24-15.52.14:199][610]LogEditorTransaction: Undo Modify Component(s)
+[2024.07.24-15.52.22:619][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.07.24-15.52.22:625][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-15.52.22:754][901]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.07.24-15.52.22:779][901]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.07.24-15.52.22:780][901]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main73BE9DC149963D287F53218E93415E24.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2024.07.24-15.52.22:789][901]LogFileHelpers: All files are already saved.
+[2024.07.24-15.52.22:789][901]LogFileHelpers: Saving map 'Main' took 0.069
+[2024.07.24-15.52.22:828][901]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-15.52.22:828][901]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-15.52.22:831][901]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-15.52.22:832][901]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankE95D636741A00334CEF6528E6842C78F.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-15.52.22:840][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 215 ms (total: 955 ms)
+[2024.07.24-15.52.22:846][901]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.24-15.52.22:846][901]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.07.24-15.52.22:846][901]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-15.52.23:361][922]BlueprintLog: New page: Compile BP_PawnTank
+[2024.07.24-15.52.23:537][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.07.24-15.52.24:446][945]LogViewport: Scene viewport resized to 420x143, mode Windowed.
+[2024.07.24-15.52.40:051][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.07.24-15.52.40:057][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-15.52.40:155][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.07.24-15.52.40:180][449]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.07.24-15.52.40:181][449]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainCDA860694B4B82652F40D0B71285E141.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2024.07.24-15.52.40:190][449]LogFileHelpers: All files are already saved.
+[2024.07.24-15.52.40:190][449]LogFileHelpers: Saving map 'Main' took 0.070
+[2024.07.24-15.52.40:229][449]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-15.52.40:229][449]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-15.52.40:232][449]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-15.52.40:233][449]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank8446FB274C919540F154B7B7C6C0BF4D.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-15.52.40:241][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 184 ms (total: 1.13 sec)
+[2024.07.24-15.52.40:246][449]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.24-15.52.40:246][449]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.07.24-15.52.40:246][449]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-15.52.40:518][461]BlueprintLog: New page: Compile BP_PawnTank
+[2024.07.24-15.52.40:695][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.07.24-15.52.41:066][463]LogViewport: Scene viewport resized to 420x143, mode Windowed.
+[2024.07.24-15.52.55:431][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.07.24-15.52.55:438][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-15.52.55:556][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.07.24-15.52.55:581][912]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.07.24-15.52.55:582][912]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main220B28954A850DA7460ABD92FB31DA14.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2024.07.24-15.52.55:593][912]LogFileHelpers: All files are already saved.
+[2024.07.24-15.52.55:593][912]LogFileHelpers: Saving map 'Main' took 0.073
+[2024.07.24-15.52.55:631][912]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-15.52.55:631][912]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-15.52.55:634][912]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-15.52.55:635][912]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank5B33F8B0438B612BA3D436BC9F2B7A57.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-15.52.55:644][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 1.34 sec)
+[2024.07.24-15.52.55:645][912]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.24-15.52.55:645][912]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.07.24-15.52.55:645][912]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-15.52.55:995][927]BlueprintLog: New page: Compile BP_PawnTank
+[2024.07.24-15.52.56:167][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.07.24-15.52.56:580][930]LogViewport: Scene viewport resized to 420x143, mode Windowed.
