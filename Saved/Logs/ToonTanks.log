@@ -2409,3 +2409,136 @@ Minimum required: 527.27
 [2024.07.24-21.54.08:491][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
 [2024.07.24-21.54.08:499][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
 [2024.07.24-21.54.08:583][980]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.07.24-21.57.41:329][816]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2024.07.24-21.57.41:541][816]Using bundled DotNet SDK version: 6.0.302
+[2024.07.24-21.57.41:541][816]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2024.07.24-21.57.42:046][816]Log file: C:\Users\fidel.martinez.CGBOTMX\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.07.24-21.57.42:753][816]
+[2024.07.24-21.57.42:753][816]Generating VisualStudio2022 project files:
+[2024.07.24-21.57.42:753][816]Discovering modules, targets and source code for project...
+[2024.07.24-21.57.44:470][816]Binding IntelliSense data...
+[2024.07.24-21.57.49:890][816]Binding IntelliSense data... 100%
+[2024.07.24-21.57.49:890][816]Creating common properties file...
+[2024.07.24-21.57.49:890][816]Creating common properties file... 0%
+[2024.07.24-21.57.49:890][816]Writing project files...
+[2024.07.24-21.57.51:736][816]Writing project files... 100%
+[2024.07.24-21.57.51:736][816]
+[2024.07.24-21.57.51:736][816]Generating QueryTargets data for editor...
+[2024.07.24-21.57.52:069][816]Candidate modules for hot reload:
+[2024.07.24-21.57.52:069][816]  ToonTanks
+[2024.07.24-21.57.52:078][816]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=ToonTanks,6355 ToonTanksEditor Win64 Development -Project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: New page: Compilation - Jul 24, 2024, 10:58:00 AM
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=ToonTanks,6355 ToonTanksEditor Win64 Development -Project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Log file: C:\Users\fidel.martinez.CGBOTMX\AppData\Local\UnrealBuildTool\Log.txt
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks).
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2024.07.24-21.58.00:797][816]CompilerResultsLog:   Running Internal UnrealHeaderTool C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest -WarningsAsErrors -installed
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Total of 3 written
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 2.4356091 seconds
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Building ToonTanksEditor...
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Using Visual Studio 2022 14.36.32543 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Upgrade]
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in ToonTanksEditor.Target.cs.
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Upgrade]
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: [Adaptive Build] Excluded from ToonTanks unity file: Projectile.cpp
+[2024.07.24-21.58.00:797][816]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2024.07.24-21.58.00:798][816]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: [1/6] Compile [x64] ToonTanks.init.gen.cpp
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: [2/6] Compile [x64] Projectile.cpp
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: [3/6] Compile [x64] Projectile.gen.cpp
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-ToonTanks-6355.lib
+[2024.07.24-21.58.00:798][816]CompilerResultsLog:    Creating library C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6355.lib and object C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6355.exp
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-ToonTanks-6355.dll
+[2024.07.24-21.58.00:798][816]CompilerResultsLog:    Creating library C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6355.sup.lib and object C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6355.sup.exp
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: [6/6] WriteMetadata ToonTanksEditor.target
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: Total time in Parallel executor: 2.20 seconds
+[2024.07.24-21.58.00:798][816]CompilerResultsLog: Total execution time: 8.33 seconds
+[2024.07.24-21.58.00:798][816]LogMainFrame: MainFrame: Module compiling took 8.743 seconds
+[2024.07.24-21.58.00:812][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.07.24-21.58.01:104][816]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.24-21.58.01:107][816]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.24-21.58.01:201][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.07.24-21.58.01:237][816]Display: HotReload took  9.2s.
+[2024.07.24-21.58.01:238][816]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 3 classes unchanged
+[2024.07.24-21.58.01:245][816]Warning: HotReload operation took  9.2s.
+[2024.07.24-21.58.01:421][816]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.07.24-21.58.01:920][817]LogHotReload: New module detected: UnrealEditor-ToonTanks-6355.dll
+[2024.07.24-21.58.01:927][818]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.24-21.58.02:079][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.07.24-21.58.02:128][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.07.24-21.58.02:184][818]Display: HotReload took  0.3s.
+[2024.07.24-21.58.02:184][818]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.07.24-22.02.08:836][585]LogHotReload: New module detected: UnrealEditor-ToonTanks-0047.dll
+[2024.07.24-22.02.10:176][590]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.24-22.02.10:298][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.07.24-22.02.10:317][590]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.24-22.02.10:317][590]LogClass: UClass Projectile Reload.
+[2024.07.24-22.02.10:320][590]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.24-22.02.10:339][590]Re-instancing Projectile after reload.
+[2024.07.24-22.02.10:417][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.07.24-22.02.10:476][590]Display: HotReload took  0.3s.
+[2024.07.24-22.02.10:476][590]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 3 classes unchanged
+[2024.07.24-22.02.47:204][ 74]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile
+[2024.07.24-22.02.47:204][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-22.02.47:204][ 74]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.24-22.02.47:358][ 74]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.07.24-22.02.47:412][ 74]LogViewport: Scene viewport resized to 1070x578, mode Windowed.
+[2024.07.24-22.02.50:011][172]BlueprintLog: New page: Compile BP_Projectile
+[2024.07.24-22.02.50:107][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.07.24-22.02.50:596][190]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-22.02.50:686][190]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/BP_Projectile.BP_Projectile_C' for saving '/Game/Blueprints/BP_Projectile.BP_Projectile_C'
+[2024.07.24-22.02.50:686][190]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/BP_Projectile.BP_Projectile_C' for saving '/Game/Blueprints/BP_Projectile.BP_Projectile_C'
+[2024.07.24-22.02.50:687][190]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Projectile
+[2024.07.24-22.02.50:687][190]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_Projectile8129F60E45ED42B47AF57FBE0C558634.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/BP_Projectile.uasset'
+[2024.07.24-22.02.50:699][190]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 695 ms)
+[2024.07.24-22.02.50:700][190]AssetCheck: New page: Asset Save: BP_Projectile
+[2024.07.24-22.02.50:700][190]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Projectile.BP_Projectile
+[2024.07.24-22.02.54:099][253]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.07.24-22.02.54:221][253]LogContentBrowser: Creating deferred item: NewFolder
+[2024.07.24-22.02.54:231][254]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.07.24-22.02.56:603][297]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2024.07.24-22.02.56:603][297]LogContentBrowser: End creating deferred item NewFolder
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile_C' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.BP_Projectile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:712][381]LogMetaData: Removing '/Game/Blueprints/Actors/BP_Projectile.SKEL_BP_Projectile_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_Projectile.PackageMetaData'
+[2024.07.24-22.03.01:723][381]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-22.03.01:785][381]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2024.07.24-22.03.01:785][381]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileEB0FED85447150DFA30A108BB2705036.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2024.07.24-22.03.01:796][381]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 767 ms)
+[2024.07.24-22.03.01:822][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.07.24-22.03.01:837][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.24-22.03.01:850][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.07.24-22.03.01:863][381]AssetCheck: New page: Asset Save: BP_Projectile
+[2024.07.24-22.03.01:863][381]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2024.07.24-22.03.47:805][549]LogStaticMesh: Display: Building static mesh SM_Projectile...
+[2024.07.24-22.03.47:831][549]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Meshes/SM_Projectile.SM_Projectile
+[2024.07.24-22.03.47:902][549]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-22.04.09:583][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.07.24-22.04.09:590][967]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-22.04.09:680][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.07.24-22.04.09:709][967]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.07.24-22.04.09:710][967]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main2C68C0834330360A59F39CB8775615DF.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2024.07.24-22.04.09:720][967]LogFileHelpers: All files are already saved.
+[2024.07.24-22.04.09:720][967]LogFileHelpers: Saving map 'Main' took 0.073
+[2024.07.24-22.04.09:721][967]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.24-22.04.09:954][967]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2024.07.24-22.04.09:955][967]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_Projectile6C2FEDFF4D2B5D296153E1B63E02F39E.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2024.07.24-22.04.09:960][967]LogFileHelpers: InternalPromptForCheckoutAndSave took 370 ms (total: 1.13 sec)
+[2024.07.24-22.04.09:964][967]AssetCheck: New page: Asset Save: multiple assets
+[2024.07.24-22.04.09:964][967]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.07.24-22.04.09:964][967]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2024.07.24-22.04.11:221][  8]BlueprintLog: New page: Compile BP_Projectile
+[2024.07.24-22.04.11:249][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
