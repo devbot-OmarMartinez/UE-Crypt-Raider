@@ -4,6 +4,7 @@
 #include "Tank.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 ATank::ATank()
 {
@@ -24,6 +25,7 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void ATank::Move(float Value)
 {
     FVector DeltaLocation = FVector::ZeroVector;
-    DeltaLocation.X = Value;
+    // X = Value * DeltaTime * Speed
+    DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
     AddActorLocalOffset(DeltaLocation);
 }

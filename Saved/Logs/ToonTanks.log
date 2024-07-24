@@ -2172,3 +2172,48 @@ Make sure 'BP_PawnTank_C' has been compiled for  Get VisibleAnywhereInt
 [2024.07.24-16.54.16:475][846]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
 [2024.07.24-16.54.16:740][847]LogPlayLevel: Display: Destroying online subsystem :Context_13
 [2024.07.24-16.54.16:821][847]LogViewport: Scene viewport resized to 420x143, mode Windowed.
+[2024.07.24-16.58.13:757][741]BlueprintLog: New page: Compile BP_PawnTank
+[2024.07.24-16.58.13:937][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.07.24-16.58.15:014][769]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-16.58.15:173][769]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-16.58.15:173][769]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-16.58.15:176][769]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-16.58.15:177][769]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankEFA2332141CB08FB5B0E9CA07C1A87B1.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-16.58.15:187][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 1.51 sec)
+[2024.07.24-16.58.15:191][769]AssetCheck: New page: Asset Save: BP_PawnTank
+[2024.07.24-16.58.15:191][769]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-16.58.15:947][797]LogViewport: Scene viewport resized to 420x143, mode Windowed.
+[2024.07.24-16.58.42:030][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.07.24-16.58.42:059][154]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto2
+[2024.07.24-16.58.42:059][154]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto2B626C7104A0FCBF5520191B9AFB986A3.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap'
+[2024.07.24-16.58.42:061][154]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto2.umap is in the /Temp path, will not scan.
+[2024.07.24-16.58.42:061][154]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto2 is in the /Temp path, will not scan.
+[2024.07.24-16.58.42:061][154]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto2 is in the /Temp path, will not scan.
+[2024.07.24-16.58.42:062][154]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.046
+[2024.07.24-16.58.42:062][154]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
+[2024.07.24-17.08.57:451][914]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-17.08.57:592][914]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-17.08.57:592][914]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-17.08.57:594][914]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-17.08.57:595][914]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank686CBB624846F3AD1678E8B217C93BB3.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-17.08.57:603][914]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 1.66 sec)
+[2024.07.24-17.08.57:607][914]AssetCheck: New page: Asset Save: BP_PawnTank
+[2024.07.24-17.08.57:607][914]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-17.08.58:832][ 61]BlueprintLog: New page: Compile BP_PawnTank
+[2024.07.24-17.08.59:000][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.07.24-17.08.59:808][124]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.24-17.08.59:936][124]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-17.08.59:936][124]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C' for saving '/Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank_C'
+[2024.07.24-17.08.59:938][124]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.24-17.08.59:938][124]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankF596C0B546D2B6EA30D66A8D2CC4F333.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.24-17.08.59:946][124]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 1.80 sec)
+[2024.07.24-17.08.59:951][124]AssetCheck: New page: Asset Save: BP_PawnTank
+[2024.07.24-17.08.59:951][124]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.24-17.09.29:363][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.07.24-17.09.29:390][597]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto3
+[2024.07.24-17.09.29:390][597]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto3918B51644A28BE849D2C899D4FED4E45.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto3.umap'
+[2024.07.24-17.09.29:391][597]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto3.umap is in the /Temp path, will not scan.
+[2024.07.24-17.09.29:392][597]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto3 is in the /Temp path, will not scan.
+[2024.07.24-17.09.29:392][597]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto3 is in the /Temp path, will not scan.
+[2024.07.24-17.09.29:392][597]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.043
+[2024.07.24-17.09.29:392][597]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.043
