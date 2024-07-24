@@ -1136,3 +1136,12 @@ Minimum required: 527.27
 [2024.07.24-14.10.03:046][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.07.24-14.10.03:046][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2024.07.24-14.11.42:866][ 36]LogDerivedDataCache: C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:42.020 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 21523 files in 23465 folders with total size 1652 MiB.
+[2024.07.24-14.18.15:898][896]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.07.24-14.18.29:407][968]LogLiveCoding: Display:    Creating library C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_0.lib and object C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Binaries\Win64\UnrealEditor-ToonTanks.patch_0.exp
+[2024.07.24-14.18.29:800][969]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.24-14.18.29:800][969]LogClass: UClass BasePawn Reload.
+[2024.07.24-14.18.29:800][969]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.24-14.18.29:810][969]Re-instancing BasePawn after reload.
+[2024.07.24-14.18.29:929][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.07.24-14.18.30:468][970]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.07.24-14.18.30:468][970]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
