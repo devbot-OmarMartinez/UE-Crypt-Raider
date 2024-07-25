@@ -1646,3 +1646,147 @@ Would you like to open the Output Log to see more details?
 [2024.07.25-17.30.47:146][281]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
 [2024.07.25-17.30.47:153][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
 [2024.07.25-17.30.47:312][282]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.07.25-17.32.30:737][716]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2024.07.25-17.32.30:948][716]Using bundled DotNet SDK version: 6.0.302
+[2024.07.25-17.32.30:948][716]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2024.07.25-17.32.31:453][716]Log file: C:\Users\fidel.martinez.CGBOTMX\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.07.25-17.32.32:160][716]
+[2024.07.25-17.32.32:160][716]Generating VisualStudio2022 project files:
+[2024.07.25-17.32.32:261][716]Discovering modules, targets and source code for project...
+[2024.07.25-17.32.34:482][716]Binding IntelliSense data...
+[2024.07.25-17.32.42:773][716]Binding IntelliSense data... 100%
+[2024.07.25-17.32.42:773][716]Creating common properties file...
+[2024.07.25-17.32.42:773][716]Creating common properties file... 0%
+[2024.07.25-17.32.42:773][716]Writing project files...
+[2024.07.25-17.32.44:949][716]Writing project files... 100%
+[2024.07.25-17.32.45:050][716]
+[2024.07.25-17.32.45:050][716]Generating QueryTargets data for editor...
+[2024.07.25-17.32.45:394][716]Candidate modules for hot reload:
+[2024.07.25-17.32.45:394][716]  ToonTanks
+[2024.07.25-17.32.45:404][716]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=ToonTanks,6858 ToonTanksEditor Win64 Development -Project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: New page: Compilation - Jul 25, 2024, 6:32:56 AM
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=ToonTanks,6858 ToonTanksEditor Win64 Development -Project="C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Log file: C:\Users\fidel.martinez.CGBOTMX\AppData\Local\UnrealBuildTool\Log.txt
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks).
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2024.07.25-17.32.56:470][716]CompilerResultsLog:   Running Internal UnrealHeaderTool C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest -WarningsAsErrors -installed
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Total of 3 written
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 2.2695319 seconds
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Building ToonTanksEditor...
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: Using Visual Studio 2022 14.36.32543 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: [Upgrade]
+[2024.07.25-17.32.56:470][716]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Latest;' in ToonTanksEditor.Target.cs.
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [Upgrade]
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [Adaptive Build] Excluded from ToonTanks unity file: ToonTanksPlayerController.cpp
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+[2024.07.25-17.32.56:471][716]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: ------ Building 6 action(s) started ------
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [1/6] Compile [x64] ToonTanks.init.gen.cpp
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [2/6] Compile [x64] ToonTanksPlayerController.cpp
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [3/6] Compile [x64] ToonTanksPlayerController.gen.cpp
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [4/6] Link [x64] UnrealEditor-ToonTanks-6858.lib
+[2024.07.25-17.32.56:471][716]CompilerResultsLog:    Creating library C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6858.lib and object C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6858.exp
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [5/6] Link [x64] UnrealEditor-ToonTanks-6858.dll
+[2024.07.25-17.32.56:471][716]CompilerResultsLog:    Creating library C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6858.sup.lib and object C:\Proyectos\Training\UnrealEngine\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToonTanks\UnrealEditor-ToonTanks-6858.sup.exp
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: [6/6] WriteMetadata ToonTanksEditor.target
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: Total time in Parallel executor: 2.64 seconds
+[2024.07.25-17.32.56:471][716]CompilerResultsLog: Total execution time: 8.84 seconds
+[2024.07.25-17.32.56:471][716]LogMainFrame: MainFrame: Module compiling took 11.098 seconds
+[2024.07.25-17.32.56:486][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.07.25-17.32.56:525][716]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.25-17.32.56:539][716]LogClass: Could not find existing class ToonTanksPlayerController in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.25-17.32.56:648][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.07.25-17.32.56:695][716]Display: HotReload took 11.3s.
+[2024.07.25-17.32.56:695][716]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 6 classes unchanged, 2 functions remapped
+[2024.07.25-17.32.56:704][716]Warning: HotReload operation took 11.3s.
+[2024.07.25-17.32.56:865][716]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.07.25-17.32.57:350][716]LogHotReload: New module detected: UnrealEditor-ToonTanks-6858.dll
+[2024.07.25-17.32.57:413][717]LogAutomationController: Ignoring very large delta of 27.80 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.25-17.32.57:415][717]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.25-17.32.57:532][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.07.25-17.32.57:602][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2024.07.25-17.32.57:695][717]Display: HotReload took  0.3s.
+[2024.07.25-17.32.57:695][717]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.07.25-17.34.21:742][273]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2024.07.25-17.34.21:742][273]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.25-17.34.21:742][273]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.25-17.34.21:930][273]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.07.25-17.34.22:009][273]LogViewport: Scene viewport resized to 1275x724, mode Windowed.
+[2024.07.25-17.35.01:689][506]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.07.25-17.35.01:702][506]LogContentBrowser: Creating deferred item: NewFolder
+[2024.07.25-17.35.01:714][507]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.07.25-17.35.02:672][511]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1690)].
+[2024.07.25-17.35.02:672][511]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.07.25-17.35.02:673][511]LogContentBrowser: End creating deferred item NewFolder
+[2024.07.25-17.35.02:758][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.07.25-17.35.02:762][511]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.072
+[2024.07.25-17.35.02:774][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_ToonTanksPlayerController] ([2] browsable assets)...
+[2024.07.25-17.35.02:774][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_ToonTanksPlayerController]
+[2024.07.25-17.35.02:777][511]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController_C' for saving '/Game/Blueprints/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController_C'
+[2024.07.25-17.35.02:777][511]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController_C' for saving '/Game/Blueprints/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController_C'
+[2024.07.25-17.35.02:779][511]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_ToonTanksPlayerController_Auto4
+[2024.07.25-17.35.02:779][511]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ToonTanksPlayerController_Aut75C2A148493E403D4E2DFEBF7BE1A467.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Blueprints/BP_ToonTanksPlayerController_Auto4.uasset'
+[2024.07.25-17.35.02:780][511]LogFileHelpers: Auto-saving content packages took 0.018
+[2024.07.25-17.35.13:778][616]LogContentBrowser: Attempting asset rename: NewFolder -> PlayerController
+[2024.07.25-17.35.21:306][674]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_ToonTanksPlayerController.PackageMetaData'
+[2024.07.25-17.35.21:306][674]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.SKEL_BP_ToonTanksPlayerController_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_ToonTanksPlayerController.PackageMetaData'
+[2024.07.25-17.35.21:306][674]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.SKEL_BP_ToonTanksPlayerController_C' ref from Metadata '/Game/Blueprints/BP_ToonTanksPlayerController.PackageMetaData'
+[2024.07.25-17.35.21:306][674]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController_C' ref from Metadata '/Game/Blueprints/BP_ToonTanksPlayerController.PackageMetaData'
+[2024.07.25-17.35.21:306][674]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_ToonTanksPlayerController.PackageMetaData'
+[2024.07.25-17.35.21:306][674]LogMetaData: Removing '/Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_ToonTanksPlayerController.PackageMetaData'
+[2024.07.25-17.35.21:325][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.25-17.35.21:400][674]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2024.07.25-17.35.21:400][674]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ToonTanksPlayerController914465C24B81850F715F03B71D61E580.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2024.07.25-17.35.21:435][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 729 ms)
+[2024.07.25-17.35.21:458][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.07.25-17.35.21:473][674]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.07.25-17.35.21:486][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.07.25-17.35.21:501][674]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2024.07.25-17.35.21:501][674]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2024.07.25-17.35.32:733][800]BlueprintLog: New page: Compile BP_ToonTankGameMode
+[2024.07.25-17.35.32:804][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.07.25-17.35.33:839][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.25-17.35.33:998][815]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/GameMode/BP_ToonTankGameMode.BP_ToonTankGameMode_C' for saving '/Game/Blueprints/GameMode/BP_ToonTankGameMode.BP_ToonTankGameMode_C'
+[2024.07.25-17.35.33:998][815]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/GameMode/BP_ToonTankGameMode.BP_ToonTankGameMode_C' for saving '/Game/Blueprints/GameMode/BP_ToonTankGameMode.BP_ToonTankGameMode_C'
+[2024.07.25-17.35.34:000][815]LogSavePackage: Moving output files for package: /Game/Blueprints/GameMode/BP_ToonTankGameMode
+[2024.07.25-17.35.34:000][815]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ToonTankGameModeC6EB20C74EB203341E686C8E4D41EED6.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/GameMode/BP_ToonTankGameMode.uasset'
+[2024.07.25-17.35.34:020][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 910 ms)
+[2024.07.25-17.35.34:021][815]AssetCheck: New page: Asset Save: BP_ToonTankGameMode
+[2024.07.25-17.35.34:021][815]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/GameMode/BP_ToonTankGameMode.BP_ToonTankGameMode
+[2024.07.25-17.45.03:714][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.07.25-17.45.03:748][960]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto5
+[2024.07.25-17.45.03:748][960]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto50D55E6A44133ACC0DAB4C4BF723719B8.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto5.umap'
+[2024.07.25-17.45.03:750][960]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto5.umap is in the /Temp path, will not scan.
+[2024.07.25-17.45.03:750][960]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto5 is in the /Temp path, will not scan.
+[2024.07.25-17.45.03:750][960]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto5 is in the /Temp path, will not scan.
+[2024.07.25-17.45.03:751][960]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.055
+[2024.07.25-17.45.03:751][960]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.055
+[2024.07.25-18.02.15:187][ 54]LogHotReload: New module detected: UnrealEditor-ToonTanks-0105.dll
+[2024.07.25-18.02.16:526][ 59]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.25-18.02.16:622][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.07.25-18.02.16:658][ 59]LogClass: UClass ToonTanksGameMode Reload.
+[2024.07.25-18.02.16:670][ 59]LogClass: Could not find existing class ToonTanksGameMode in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.25-18.02.16:692][ 59]Re-instancing ToonTanksGameMode after reload.
+[2024.07.25-18.02.16:823][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.07.25-18.02.16:898][ 59]Display: HotReload took  0.4s.
+[2024.07.25-18.02.16:898][ 59]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 2 functions remapped
+[2024.07.25-18.02.30:511][202]BlueprintLog: New page: Compile BP_ToonTanksPlayerController
+[2024.07.25-18.02.30:602][202]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.07.25-18.02.31:515][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.25-18.02.31:655][217]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2024.07.25-18.02.31:656][217]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ToonTanksPlayerControllerC847AC3B49414D893E8987A6A2242F1F.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2024.07.25-18.02.31:676][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 1.07 sec)
+[2024.07.25-18.02.31:680][217]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2024.07.25-18.02.31:680][217]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2024.07.25-18.02.50:724][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.25-18.02.50:809][287]LogSavePackage: Moving output files for package: /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController
+[2024.07.25-18.02.50:810][287]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ToonTanksPlayerControllerB222A9844FB991004CEED8AB6B68AD6E.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/PlayerController/BP_ToonTanksPlayerController.uasset'
+[2024.07.25-18.02.50:826][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 1.17 sec)
+[2024.07.25-18.02.50:829][287]AssetCheck: New page: Asset Save: BP_ToonTanksPlayerController
+[2024.07.25-18.02.50:829][287]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/PlayerController/BP_ToonTanksPlayerController.BP_ToonTanksPlayerController
+[2024.07.25-18.06.34:685][181]LogDerivedDataCache: C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:41.336 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 21570 files in 23515 folders with total size 1652 MiB.
