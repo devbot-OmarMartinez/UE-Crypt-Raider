@@ -1198,3 +1198,91 @@ Would you like to open the Output Log to see more details?
 [2024.07.25-14.56.09:867][885]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
 [2024.07.25-14.56.09:867][885]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
 [2024.07.25-15.06.34:712][866]LogDerivedDataCache: C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:41.365 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 21569 files in 23513 folders with total size 1652 MiB.
+[2024.07.25-15.16.24:798][763]LogAutomationController: Ignoring very large delta of 5.42 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.07.25-15.32.07:046][866]LogHotReload: New module detected: UnrealEditor-ToonTanks-0073.dll
+[2024.07.25-15.32.08:384][871]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.25-15.32.08:505][871]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.07.25-15.32.08:527][871]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.25-15.32.08:527][871]LogClass: UClass Projectile Reload.
+[2024.07.25-15.32.08:533][871]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.25-15.32.08:533][871]LogClass: Function OnHit is new or belongs to a modified class.
+[2024.07.25-15.32.08:555][871]Re-instancing Projectile after reload.
+[2024.07.25-15.32.08:730][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.07.25-15.32.08:797][871]Display: HotReload took  0.4s.
+[2024.07.25-15.32.08:797][871]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 4 classes unchanged, 1 function remapped
+[2024.07.25-15.34.59:706][396]LogViewport: Scene viewport resized to 1584x994, mode Windowed.
+[2024.07.25-15.35.00:407][401]LogViewport: Scene viewport resized to 1584x561, mode Windowed.
+[2024.07.25-15.36.46:894][772]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.25-15.36.46:915][772]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.07.25-15.36.46:915][772]LogPlayLevel: [PlayLevel] Compiling BP_PawnTank before play...
+[2024.07.25-15.36.46:945][772]LogPlayLevel: [PlayLevel] Compiling BP_PawnTurret before play...
+[2024.07.25-15.36.47:052][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.07.25-15.36.47:055][772]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (2 blueprints)
+[2024.07.25-15.36.47:056][772]PIE: New page: PIE session: Main (Jul 25, 2024, 4:36:47 AM)
+[2024.07.25-15.36.47:069][772]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.07.25-15.36.47:071][772]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.07.25-15.36.47:072][772]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.07.25-15.36.47:081][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008635s)
+[2024.07.25-15.36.47:081][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.008784s)
+[2024.07.25-15.36.47:124][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2024.07.25-15.36.47:133][772]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.25-15.36.47:134][772]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.25-15.36.47:134][772]LogAIModule: Creating AISystem for world Main
+[2024.07.25-15.36.47:136][772]LogPlayLevel: PIE: World Init took: (0.003939s)
+[2024.07.25-15.36.47:137][772]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.07.25-15.36.47:137][772]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.25-15.36.47:137][772]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.07.25-15.36.47:138][772]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.25-15.36.47:138][772]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.25-15.36.47:138][772]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.25-15.36.47:140][772]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.25-15.36.47:168][772]LogAudioMixer: Display: Using Audio Hardware Device 43S453 (NVIDIA High Definition Audio)
+[2024.07.25-15.36.47:168][772]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.25-15.36.47:168][772]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.25-15.36.47:168][772]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.25-15.36.47:169][772]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.07.25-15.36.47:169][772]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.07.25-15.36.47:171][772]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.07.25-15.36.47:171][772]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.07.25-15.36.47:171][772]LogInit: FAudioDevice initialized with ID 2.
+[2024.07.25-15.36.47:171][772]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2024.07.25-15.36.47:171][772]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.07.25-15.36.47:187][772]LogLoad: Game class is 'GameModeBase'
+[2024.07.25-15.36.47:190][772]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.07.25-09.36.47
+[2024.07.25-15.36.47:198][772]LogWorld: Bringing up level for play took: 0.011124
+[2024.07.25-15.36.47:202][772]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.07.25-15.36.47:392][772]PIE: Server logged in
+[2024.07.25-15.36.47:394][772]PIE: Play in editor total start time 0.488 seconds.
+[2024.07.25-15.36.49:431][793]LogTemp: Warning: Health: 50.000000
+[2024.07.25-15.36.49:718][796]LogTemp: Warning: Health: 50.000000
+[2024.07.25-15.36.50:698][807]LogTemp: Warning: Health: 0.000000
+[2024.07.25-15.36.51:386][815]LogTemp: Warning: Health: 0.000000
+[2024.07.25-15.36.51:740][819]LogTemp: Warning: Health: -50.000000
+[2024.07.25-15.36.53:315][837]LogTemp: Warning: Health: -50.000000
+[2024.07.25-15.36.53:399][838]LogTemp: Warning: Health: -100.000000
+[2024.07.25-15.36.55:346][860]LogTemp: Warning: Health: -150.000000
+[2024.07.25-15.36.55:429][861]LogTemp: Warning: Health: -200.000000
+[2024.07.25-15.36.56:135][869]LogTemp: Warning: Health: 50.000000
+[2024.07.25-15.36.56:934][878]LogTemp: Warning: Health: 0.000000
+[2024.07.25-15.36.57:363][883]LogTemp: Warning: Health: -250.000000
+[2024.07.25-15.36.57:450][884]LogTemp: Warning: Health: -300.000000
+[2024.07.25-15.36.57:984][890]LogTemp: Warning: Health: -50.000000
+[2024.07.25-15.36.58:484][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.25-15.36.58:484][895]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.07.25-15.36.58:486][895]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.07.25-15.36.58:487][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.25-15.36.58:605][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.25-15.36.58:611][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.25-15.36.58:623][895]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.25-15.36.58:626][895]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.07.25-15.36.58:627][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.07.25-15.36.58:629][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.07.25-15.36.58:639][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.25-15.36.58:647][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.07.25-15.36.58:783][896]LogPlayLevel: Display: Destroying online subsystem :Context_12
