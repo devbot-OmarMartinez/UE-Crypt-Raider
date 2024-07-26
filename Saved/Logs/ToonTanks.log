@@ -2964,3 +2964,218 @@ Minimum required: 527.27
 [2024.07.26-17.15.32:426][646]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto5.umap is in the /Temp path, will not scan.
 [2024.07.26-17.15.32:427][646]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.054
 [2024.07.26-17.15.32:427][646]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.054
+[2024.07.26-17.24.06:348][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.26-17.24.06:348][212]PIE: New page: PIE session: Main (Jul 26, 2024, 6:24:06 AM)
+[2024.07.26-17.24.06:348][212]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.07.26-17.24.06:353][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005293s)
+[2024.07.26-17.24.06:353][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005335s)
+[2024.07.26-17.24.06:370][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.07.26-17.24.06:371][212]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.26-17.24.06:371][212]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.26-17.24.06:371][212]LogAIModule: Creating AISystem for world Main
+[2024.07.26-17.24.06:372][212]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2024.07.26-17.24.06:372][212]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: 	Max Channels (voices):				  2048
+[2024.07.26-17.24.06:372][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.26-17.24.06:372][212]LogAudio: Display: AudioDevice MaxSources: 2048
+[2024.07.26-17.24.06:373][212]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.26-17.24.06:373][212]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.26-17.24.06:373][212]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.26-17.24.06:375][212]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.26-17.24.06:401][212]LogAudioMixer: Display: Using Audio Hardware Device 43S453 (NVIDIA High Definition Audio)
+[2024.07.26-17.24.06:416][212]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.26-17.24.06:416][212]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.26-17.24.06:416][212]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.26-17.24.06:417][212]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.07.26-17.24.06:417][212]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.07.26-17.24.06:419][212]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.07.26-17.24.06:419][212]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.07.26-17.24.06:419][212]LogInit: FAudioDevice initialized with ID 25.
+[2024.07.26-17.24.06:419][212]LogAudio: Display: Audio Device (ID: 25) registered with world 'Main'.
+[2024.07.26-17.24.06:419][212]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.07.26-17.24.06:423][212]LogLoad: Game class is 'BP_ToonTankGameMode_C'
+[2024.07.26-17.24.06:424][212]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.07.26-11.24.06
+[2024.07.26-17.24.06:425][212]LogWorld: Bringing up level for play took: 0.001812
+[2024.07.26-17.24.06:427][212]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.07.26-17.24.06:429][212]PIE: Server logged in
+[2024.07.26-17.24.06:430][212]PIE: Play in editor total start time 0.084 seconds.
+[2024.07.26-17.24.06:550][212]LogAudio: Warning: FAudioDevice::SetReverbSettings(): Illegal volume 5.13563 (should be 0.0f <= Volume <= 1.0f)
+[2024.07.26-17.24.08:103][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.26-17.24.08:103][223]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.07.26-17.24.08:104][223]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.07.26-17.24.08:104][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.26-17.24.08:197][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.26-17.24.08:203][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.26-17.24.08:217][223]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.07.26-17.24.08:218][223]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.07.26-17.24.08:220][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.07.26-17.24.08:222][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.07.26-17.24.08:231][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.26-17.24.08:234][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.07.26-17.24.08:409][224]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.07.26-17.27.52:443][987]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.07.26-17.27.52:459][987]LogContentBrowser: Creating deferred item: NewFolder
+[2024.07.26-17.27.52:471][988]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.07.26-17.28.00:212][ 48]LogContentBrowser: Attempting asset rename: NewFolder -> CameraShake
+[2024.07.26-17.28.00:213][ 48]LogContentBrowser: End creating deferred item NewFolder
+[2024.07.26-17.40.15:616][260]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.07.26-17.40.15:626][260]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.07.26-17.40.15:635][260]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.07.26-17.40.15:666][262]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.07.26-17.40.39:857][422]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_HitCameraShake
+[2024.07.26-17.40.39:878][422]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.07.26-17.40.42:382][440]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShake/BP_HitCameraShake.BP_HitCameraShake
+[2024.07.26-17.40.42:382][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.26-17.40.42:382][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.26-17.41.00:156][137]BlueprintLog: New page: Compile BP_HitCameraShake
+[2024.07.26-17.41.00:216][137]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.07.26-17.41.00:791][156]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.26-17.41.00:925][156]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_HitCameraShake
+[2024.07.26-17.41.00:925][156]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_HitCameraShake801ECAE541EC26EC3EC393A461DB1FCC.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset'
+[2024.07.26-17.41.00:943][156]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 4.69 sec)
+[2024.07.26-17.41.00:944][156]AssetCheck: New page: Asset Save: BP_HitCameraShake
+[2024.07.26-17.41.00:944][156]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_HitCameraShake.BP_HitCameraShake
+[2024.07.26-17.45.52:295][ 68]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.07.26-17.46.26:258][860]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.07.26-17.48.21:955][293]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.07.26-17.48.21:965][293]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.07.26-17.48.21:974][293]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.07.26-17.48.21:992][294]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.07.26-17.48.40:992][458]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_DeathCameraShake
+[2024.07.26-17.48.40:999][458]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.07.26-17.48.43:722][476]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2024.07.26-17.48.43:722][476]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.26-17.48.43:722][476]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.26-17.50.20:464][281]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.26-17.50.20:656][281]LogSavePackage: Moving output files for package: /Game/Blueprints/CameraShake/BP_DeathCameraShake
+[2024.07.26-17.50.20:656][281]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_DeathCameraShake8D47431140C0E930D860E48F4FF41380.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset'
+[2024.07.26-17.50.20:667][281]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 4.89 sec)
+[2024.07.26-17.50.20:668][281]AssetCheck: New page: Asset Save: BP_DeathCameraShake
+[2024.07.26-17.50.20:668][281]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/CameraShake/BP_DeathCameraShake.BP_DeathCameraShake
+[2024.07.26-17.50.48:637][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.07.26-17.50.48:639][505]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.022
+[2024.07.26-17.50.48:640][505]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShake/BP_HitCameraShake] ([2] browsable assets)...
+[2024.07.26-17.50.48:640][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShake/BP_HitCameraShake]
+[2024.07.26-17.50.48:642][505]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/CameraShake/BP_HitCameraShake_Auto6
+[2024.07.26-17.50.48:642][505]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_HitCameraShake_Auto6E501F58D4C3A70523F05278627A97BAB.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Blueprints/CameraShake/BP_HitCameraShake_Auto6.uasset'
+[2024.07.26-17.50.48:643][505]LogFileHelpers: Auto-saving content packages took 0.004
+[2024.07.26-17.57.13:308][921]LogHotReload: New module detected: UnrealEditor-ToonTanks-0154.dll
+[2024.07.26-17.57.14:646][926]LogHotReload: Starting Hot-Reload from IDE
+[2024.07.26-17.57.14:721][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.07.26-17.57.14:780][926]LogClass: UPackage /Script/ToonTanks Reload.
+[2024.07.26-17.57.14:780][926]LogClass: UClass BasePawn Reload.
+[2024.07.26-17.57.14:780][926]LogClass: UClass Projectile Reload.
+[2024.07.26-17.57.14:780][926]LogClass: UClass Tank Reload.
+[2024.07.26-17.57.14:780][926]LogClass: UClass Tower Reload.
+[2024.07.26-17.57.14:780][926]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.26-17.57.14:785][926]LogClass: Could not find existing class Projectile in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.26-17.57.14:785][926]LogClass: Function OnHit is new or belongs to a modified class.
+[2024.07.26-17.57.14:785][926]LogClass: Could not find existing class Tank in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.26-17.57.14:795][926]LogClass: Could not find existing class Tower in package /Script/ToonTanks for reload, assuming new or modified class
+[2024.07.26-17.57.14:818][926]Re-instancing Projectile after reload.
+[2024.07.26-17.57.14:933][926]Re-instancing BasePawn after reload.
+[2024.07.26-17.57.14:958][926]Re-instancing Tank after reload.
+[2024.07.26-17.57.15:215][926]Re-instancing Tower after reload.
+[2024.07.26-17.57.15:496][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.07.26-17.57.15:567][926]Display: HotReload took  0.9s.
+[2024.07.26-17.57.15:567][926]Display: Reload/Re-instancing Complete: 1 package changed, 4 classes changed, 3 classes unchanged, 1 function remapped
+[2024.07.26-18.00.50:335][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.07.26-18.00.50:336][568]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.135
+[2024.07.26-18.00.50:337][568]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/CameraShake/BP_DeathCameraShake] ([2] browsable assets)...
+[2024.07.26-18.00.50:337][568]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CameraShake/BP_DeathCameraShake]
+[2024.07.26-18.00.50:340][568]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/CameraShake/BP_DeathCameraShake_Auto7
+[2024.07.26-18.00.50:340][568]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_DeathCameraShake_Auto791F4B0DC4DDE3660E1875A97273AADDA.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Blueprints/CameraShake/BP_DeathCameraShake_Auto7.uasset'
+[2024.07.26-18.00.50:341][568]LogFileHelpers: Auto-saving content packages took 0.004
+[2024.07.26-18.08.29:730][947]LogDerivedDataCache: C:/Users/fidel.martinez.CGBOTMX/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:41.487 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 21624 files in 23568 folders with total size 1652 MiB.
+[2024.07.26-18.13.52:803][158]BlueprintLog: New page: Compile BP_Projectile
+[2024.07.26-18.13.52:911][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.07.26-18.13.53:654][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.26-18.13.53:898][174]LogSavePackage: Moving output files for package: /Game/Blueprints/Actors/BP_Projectile
+[2024.07.26-18.13.53:899][174]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_Projectile47DF016C43DB7736049632AB5EB5A554.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset'
+[2024.07.26-18.13.53:918][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 264 ms (total: 5.16 sec)
+[2024.07.26-18.13.53:923][174]AssetCheck: New page: Asset Save: BP_Projectile
+[2024.07.26-18.13.53:923][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Actors/BP_Projectile.BP_Projectile
+[2024.07.26-18.14.01:428][316]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.07.26-18.14.01:439][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.07.26-18.14.01:439][316]PIE: New page: PIE session: Main (Jul 26, 2024, 7:14:01 AM)
+[2024.07.26-18.14.01:440][316]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.07.26-18.14.01:445][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005448s)
+[2024.07.26-18.14.01:445][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005486s)
+[2024.07.26-18.14.01:460][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.07.26-18.14.01:470][316]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.07.26-18.14.01:470][316]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.07.26-18.14.01:471][316]LogAIModule: Creating AISystem for world Main
+[2024.07.26-18.14.01:471][316]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2024.07.26-18.14.01:471][316]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: 	Max Channels (voices):				  2048
+[2024.07.26-18.14.01:471][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.07.26-18.14.01:471][316]LogAudio: Display: AudioDevice MaxSources: 2048
+[2024.07.26-18.14.01:472][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.07.26-18.14.01:472][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.07.26-18.14.01:472][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.07.26-18.14.01:474][316]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.07.26-18.14.01:505][316]LogAudioMixer: Display: Using Audio Hardware Device 43S453 (NVIDIA High Definition Audio)
+[2024.07.26-18.14.01:604][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.07.26-18.14.01:604][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.07.26-18.14.01:604][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.07.26-18.14.01:607][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.07.26-18.14.01:607][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.07.26-18.14.01:609][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.07.26-18.14.01:609][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.07.26-18.14.01:609][316]LogInit: FAudioDevice initialized with ID 26.
+[2024.07.26-18.14.01:609][316]LogAudio: Display: Audio Device (ID: 26) registered with world 'Main'.
+[2024.07.26-18.14.01:609][316]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.07.26-18.14.01:616][316]LogLoad: Game class is 'BP_ToonTankGameMode_C'
+[2024.07.26-18.14.01:618][316]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.07.26-12.14.01
+[2024.07.26-18.14.01:618][316]LogWorld: Bringing up level for play took: 0.001772
+[2024.07.26-18.14.01:621][316]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.07.26-18.14.01:623][316]PIE: Server logged in
+[2024.07.26-18.14.01:625][316]PIE: Play in editor total start time 0.187 seconds.
+[2024.07.26-18.14.01:629][316]LogAudio: Warning: FAudioDevice::SetReverbSettings(): Illegal volume 5.13563 (should be 0.0f <= Volume <= 1.0f)
+[2024.07.26-18.14.01:703][317]LogAudio: Warning: FAudioDevice::SetReverbSettings(): Illegal volume 5.13563 (should be 0.0f <= Volume <= 1.0f)
+[2024.07.26-18.14.40:773][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.26-18.14.40:773][635]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.07.26-18.14.40:774][635]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.07.26-18.14.40:774][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.26-18.14.40:777][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.07.26-18.14.40:784][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.07.26-18.14.40:798][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.07.26-18.14.40:798][635]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.07.26-18.14.40:801][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.07.26-18.14.40:803][635]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.07.26-18.14.40:819][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.07.26-18.14.41:009][636]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.07.26-18.14.52:709][968]BlueprintLog: New page: Compile BP_PawnTurret
+[2024.07.26-18.14.52:873][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.07.26-18.14.53:737][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.26-18.14.54:189][984]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTurret
+[2024.07.26-18.14.54:190][984]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret52F785D543A778E096CC8AA80276BA93.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2024.07.26-18.14.54:201][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 464 ms (total: 5.62 sec)
+[2024.07.26-18.14.54:206][984]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2024.07.26-18.14.54:206][984]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2024.07.26-18.15.00:668][173]BlueprintLog: New page: Compile BP_PawnTank
+[2024.07.26-18.15.00:878][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.07.26-18.15.02:136][197]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.07.26-18.15.02:358][197]LogSavePackage: Moving output files for package: /Game/Blueprints/Pawns/BP_PawnTank
+[2024.07.26-18.15.02:359][197]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankFD29B6D4476B14C77E69A1A34C6C2FF0.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2024.07.26-18.15.02:368][197]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 5.86 sec)
+[2024.07.26-18.15.02:372][197]AssetCheck: New page: Asset Save: BP_PawnTank
+[2024.07.26-18.15.02:372][197]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2024.07.26-18.15.31:900][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.07.26-18.15.31:935][ 11]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto8
+[2024.07.26-18.15.31:935][ 11]LogSavePackage: Moving '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_Auto81DDC342C404CA318D2DD6BB0BE7B9B22.tmp' to '../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto8.umap'
+[2024.07.26-18.15.31:937][ 11]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Proyectos/Training/UnrealEngine/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto8.umap is in the /Temp path, will not scan.
+[2024.07.26-18.15.31:938][ 11]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto8 is in the /Temp path, will not scan.
+[2024.07.26-18.15.31:938][ 11]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto8 is in the /Temp path, will not scan.
+[2024.07.26-18.15.31:938][ 11]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.055
+[2024.07.26-18.15.31:938][ 11]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.055
